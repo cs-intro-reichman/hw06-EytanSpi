@@ -9,12 +9,11 @@ public class Runigram {
 		
 		// Tests the reading and printing of an image:	
 		// Color[][] picture = read("tinypic.ppm");
-		Color[][] picture = read("thor.ppm");
 		// print(picture);
 
 		// Creates an image which will be the result of various 
 		// image processing operations:
-		Color[][] imageOut;
+		// Color[][] imageOut;
 
 		// Tests the horizontal flipping of an image:
 		// imageOut = flippedHorizontally(picture);
@@ -22,14 +21,9 @@ public class Runigram {
 		// imageOut =  grayScaled(picture);
 		// imageOut =  scaled(picture, 6,20);
 		// imageOut = blend(picture, flippedVertically(picture), 0.5);
-		morph(read("thor.ppm"),read("ironman.ppm"), 10);
+		// morph(read("thor.ppm"),read("ironman.ppm"), 10);
 
-		System.out.println();
 		// print(imageOut);
-
-		
-		//// Write here whatever code you need in order to test your work.
-		//// You can reuse / overide the contents of the imageOut array.
 	}
 
 	/** Returns a 2D array of Color values, representing the image data
